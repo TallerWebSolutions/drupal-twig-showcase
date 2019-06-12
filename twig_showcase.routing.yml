@@ -1,0 +1,7 @@
+twig_showcase.overall:
+  path: /twig-showcase
+  defaults:
+    _controller: '\Drupal\twig_showcase\Controller\ShowcaseController::build'
+
+  requirements:
+    _permission: 'access content'

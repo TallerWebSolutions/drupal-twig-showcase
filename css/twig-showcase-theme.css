@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,700|Shrikhand"); .region-content,
+.content,
+.block-system-main-block,
+.content {
+  height: 100%;
+}
+
+.twig-showcase-page {
+  height: 100vh;
+  margin-top: -20px;
+}
+
+.twig-showcase-container {
+  display: flex;
+  height: 100%;
+  background-color: white;
+}
+
+.twig-showcase-navigation {
+  width: 250px;
+  background-color: #f7f7f7;
+  box-shadow: -2px -1px 20px 0px #af8787;
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.twig-showcase-navigation-header {
+  padding: 2em 1em 0 1em;
+}
+
+.twig-showcase-navigation h2 {
+  margin: 0;
+  color: #e04c4c;
+  font-size: 1.25em;
+  font-family: 'Shrikhand', cursive;
+}
+
+.twig-showcase-navigation h3 {
+  text-transform: uppercase;
+  font-size: .875em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.twig-showcase-navigation ul {
+  padding: 0;
+}
+
+.twig-showcase-navigation ul li {
+  list-style: none;
+  padding: .25em 1em;
+}
+
+.twig-showcase-navigation ul li.active,
+.twig-showcase-navigation ul li.active:hover {
+  background-color: #e04c4c;
+  color: white;
+}
+
+.twig-showcase-navigation ul li:hover {
+  cursor: pointer;
+  background-color: #e0dfdf;
+}
+
+.component-wrapper {
+  width: 70%;
+  padding: 2em;
+}
+
+.component {
+  display: none;
+}
+
+.show {
+  display: block;
+}

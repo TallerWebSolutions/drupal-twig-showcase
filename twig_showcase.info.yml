@@ -1,0 +1,4 @@
+name: Twig Showcase
+type: module
+description: 'Module to create a component library UI development tool.'
+core: 8.x

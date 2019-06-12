@@ -1,0 +1,8 @@
+{
+    "name": "taller/twig-showcase",
+    "description": "Module to create a component library UI development tool.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "require": {}
+}

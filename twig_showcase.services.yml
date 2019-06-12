@@ -1,0 +1,4 @@
+services:
+  twig_showcase.showcase_handler:
+    class: Drupal\twig_showcase\ShowcaseHandler
+    arguments: ['@theme.manager']

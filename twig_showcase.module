@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Contains module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function twig_showcase_theme($themes) {
+  $themes = [
+    'page__twig_showcase' => [
+      'variables' => ['variables' => NULL],
+    ],
+    'twig_showcase' => [
+      'variables' => ['variables' => NULL],
+    ],
+  ];
+
+  return $themes;
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function twig_showcase_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'twig_showcase/global-styling';
+}

@@ -1,0 +1,10 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/twig-showcase-theme.css: {}
+  js:
+    js/twig-showcase.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

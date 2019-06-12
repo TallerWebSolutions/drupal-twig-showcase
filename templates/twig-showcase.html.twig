@@ -1,0 +1,21 @@
+<div class='twig-showcase-container'>
+  <div class='twig-showcase-navigation'>
+    <div class='twig-showcase-navigation-header'>
+      <h2>Twig Showcase</h2>
+      <h3>Components</h3>
+    </div>
+    <ul>
+      {% for key, component in variables.components %}
+        <li data-target={{ key }}>{{ component.title }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class='component-wrapper'>
+    {% for name, component in variables.components %}
+      <div class='component' id={{name}}>
+        {% include "@#{variables.activeTheme}/" ~ component.path %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
